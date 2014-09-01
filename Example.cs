@@ -14,10 +14,14 @@ namespace TestRun
 			Console.WriteLine(line.Contact(0, 2));
 			Console.WriteLine(line.Contact(0, 3));
 			Console.WriteLine(line.Contact(1, 4));
-			Console.WriteLine(line.Len());
 			
 			// End
 			Console.ReadKey(true);
 		}
 	}
 }
+
+/* 	------	OUTPUT	------
+True
+True
+False
